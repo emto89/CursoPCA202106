@@ -1,5 +1,5 @@
 <div class="row">
-
+ <p class="parrafo">Esto es una prueba</p>
     <div class="col">
         <h1>*ngIf</h1>
         <hr>
@@ -12,7 +12,15 @@
         <button (click)="mostrar = !mostrar" class="btn btn-outline-primary btn-block">
             Mostrar/Ocultar
         </button>
-
+    </div>
+    <div class="col">
+        <h1>*ngFor</h1>
+        <hr>
+        <ul class="list-group">
+            <li *ngFor=" let personaje of personajes; let i = index" class="list-group-item">
+               {{i+1}} - {{ personaje }}
+            </li>
+        </ul>
 
     </div>
 

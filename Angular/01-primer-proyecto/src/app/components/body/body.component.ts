@@ -13,4 +13,6 @@ export class BodyComponent {
     autor: 'Batman'
   }
 
+  personajes: string[] = ['Superman', 'Mujer Maravilla', 'Flash'];
+
 }
