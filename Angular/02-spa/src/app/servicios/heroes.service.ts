@@ -79,6 +79,7 @@ export class HeroesService{
 
        // batman  == b
       if (nombre.indexOf(termino) >= 0) {
+        heroe.idx = index;
         heroesArr.push(heroe);
       }
       
